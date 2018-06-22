@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <title>TestApp</title>
+        <link rel="stylesheet" href="css\style.css">
+        <script src="js\buttons.js"></script>
+    </head>
+    <body>
+        <div class="leftnav">
+            <button class="menubutton" onclick="">
+                <img src="img\menu.png">
+            </button>
+        </div>
+
+        <div class="topbar">
+            <p>WayheApp</p>
+            <button class="minbutton" onclick="minWindow()">-</button>
+            <button class="exitbutton" onclick="closeWindow()">X</button>
+        </div>
+
+        <script>
+            require('./render.js')
+        </script>
+    </body>
+</html>
